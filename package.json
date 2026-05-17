@@ -1,0 +1,12 @@
+{
+  "name": "pomodoro-obs-timer",
+  "version": "1.0.0",
+  "description": "YouTube配信用ポモドーロタイマー（OBSブラウザソース対応）",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
