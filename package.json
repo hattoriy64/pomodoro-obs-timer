@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "YouTube配信用ポモドーロタイマー（OBSブラウザソース対応）",
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc --watch"
+    "build": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --platform=browser",
+    "watch": "esbuild src/main.ts --bundle --outfile=dist/bundle.js --platform=browser --watch"
   },
   "devDependencies": {
+    "esbuild": "^0.28.0",
     "typescript": "^5.4.5"
   }
 }
